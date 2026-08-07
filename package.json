@@ -1,0 +1,30 @@
+{
+  "name": "material-manager",
+  "version": "1.0.0",
+  "description": "设计师素材管理工具 - AI自动打标签、色系提取、智能搜索",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"vite\"",
+    "server": "node server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "bundle": "node server/bundle-vercel.js",
+    "start": "node server/index.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "idb": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "psd": "^3.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "concurrently": "^9.0.1",
+    "vite": "^6.0.0"
+  }
+}

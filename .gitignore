@@ -1,0 +1,10 @@
+node_modules/
+dist/
+thumbnails/
+server/
+.apikey
+push.js
+deploy-github.ps1
+upload-github.cmd
+functions/
+api/
